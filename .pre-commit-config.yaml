@@ -18,10 +18,6 @@ repos:
     - id: terragrunt_validate
     - id: terraform_tflint
     - id: terraform_tfsec
-    - id: infracost_breakdown
-      args:
-        - --args=--path=./env/dev
-      verbose: true
     - id: terraform_docs
       args:
         - --hook-config=--path-to-file=README.md
